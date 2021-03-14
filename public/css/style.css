@@ -19,7 +19,6 @@ body {
 	color: #b8b7b2;
 	background-color: #efefef;
 	text-align: center;
-	height: 100vh;
 }
 
 .page-not-found {
@@ -64,4 +63,16 @@ a {
 	width: 100%;
 	padding: 1rem 1.5rem;
 	border-radius: 5px;
+}
+
+@media only screen and (orientation: portrait) {
+	body {
+		height: 100vh;
+	}
+}
+
+@media only screen and (orientation: landscape) {
+	body {
+		height: auto;
+	}
 }
